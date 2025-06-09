@@ -1,0 +1,13 @@
+
+body { font-family: Arial, sans-serif; background: #f9f9f9; margin: 0; padding: 0; }
+header { background: #333; color: white; padding: 1em 0; text-align: center; }
+header .container { display: flex; align-items: center; flex-direction: column; }
+header nav a { color: white; margin: 0 10px; text-decoration: none; }
+.logo { width: 50px; height: 50px; }
+.container { max-width: 800px; margin: auto; padding: 1em; }
+.section { background: white; padding: 1em; margin-bottom: 1em; border-radius: 8px; }
+footer { background: #222; color: white; text-align: center; padding: 1em 0; position: fixed; bottom: 0; width: 100%; }
+.copy-msg { display: none; color: green; font-weight: bold; margin-top: 10px; }
+input[type="text"] { width: 100%; padding: 0.5em; margin: 0.5em 0; }
+ul { list-style-type: none; padding: 0; }
+ul li { background: #eee; margin-bottom: 5px; padding: 5px; border-radius: 5px; cursor: pointer; }
